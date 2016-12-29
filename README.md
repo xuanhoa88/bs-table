@@ -15,11 +15,9 @@ To get started, check out:
 * [问题/帮助](http://segmentfault.com/t/bootstrap-table)
 
 
-[**List of donators**](https://github.com/wenzhixin/bootstrap-table/blob/master/DONATORS.md)
-
 ## LICENSE
 
-**NOTE:** Bootstrap Table is licensed under the [The MIT License](https://github.com/wenzhixin/bootstrap-table/blob/master/LICENSE). Completely free, you can arbitrarily use and modify this plugin. If this plugin is useful to you, you can **Star** this repo, your support is my biggest motive force, thanks.
+**NOTE:** Bootstrap Table is licensed under the [The MIT License](https://github.com/xuanhoa88/jbs-table/LICENSE). Completely free, you can arbitrarily use and modify this plugin. If this plugin is useful to you, you can **Star** this repo, your support is my biggest motive force, thanks.
 
 ## Features
 
@@ -66,12 +64,12 @@ You can source jbs-table directly from a CDN like [CDNJS](http://www.cdnjs.com/l
 
 ## Contributing
 
-For feature requests, bug reports or submitting pull requests, please ensure you first read [CONTRIBUTING.md](https://github.com/xuanhoa88/jbs-table/blob/master/CONTRIBUTING.md).
+For feature requests, bug reports or submitting pull requests, please ensure you first read [CONTRIBUTING.md](https://github.com/xuanhoa88/jbs-table/CONTRIBUTING.md).
 
 
 ## Reporting Issues
 
-As stated above, please read [CONTRIBUTING.md](https://github.com/xuanhoa88/jbs-table/blob/master/CONTRIBUTING.md), especially [Bug Reports](https://github.com/xuanhoa88/jbs-table/blob/master/CONTRIBUTING.md#bug-reports)
+As stated above, please read [CONTRIBUTING.md](https://github.com/xuanhoa88/jbs-table/CONTRIBUTING.md), especially [Bug Reports](https://github.com/xuanhoa88/jbs-table/CONTRIBUTING.md#bug-reports)
 
 And as stated there, please provide jsFiddle when creating issues!
 
