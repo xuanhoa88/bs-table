@@ -17,7 +17,7 @@ To get started, check out:
 
 ## LICENSE
 
-**NOTE:** Bootstrap Table is licensed under the [The MIT License](https://github.com/xuanhoa88/jbs-table/LICENSE). Completely free, you can arbitrarily use and modify this plugin. If this plugin is useful to you, you can **Star** this repo, your support is my biggest motive force, thanks.
+**NOTE:** Bootstrap Table is licensed under the [The MIT License](https://github.com/xuanhoa88/bs-table/LICENSE). Completely free, you can arbitrarily use and modify this plugin. If this plugin is useful to you, you can **Star** this repo, your support is my biggest motive force, thanks.
 
 ## Features
 
@@ -64,12 +64,12 @@ You can source jbs-table directly from a CDN like [CDNJS](http://www.cdnjs.com/l
 
 ## Contributing
 
-For feature requests, bug reports or submitting pull requests, please ensure you first read [CONTRIBUTING.md](https://github.com/xuanhoa88/jbs-table/blob/master/CONTRIBUTING.md).
+For feature requests, bug reports or submitting pull requests, please ensure you first read [CONTRIBUTING.md](https://github.com/xuanhoa88/bs-table/blob/master/CONTRIBUTING.md).
 
 
 ## Reporting Issues
 
-As stated above, please read [CONTRIBUTING.md](https://github.com/xuanhoa88/jbs-table/blob/master/CONTRIBUTING.md), especially [Bug Reports](https://github.com/xuanhoa88/jbs-table/blob/master/CONTRIBUTING.md#bug-reports)
+As stated above, please read [CONTRIBUTING.md](https://github.com/xuanhoa88/bs-table/blob/master/CONTRIBUTING.md), especially [Bug Reports](https://github.com/xuanhoa88/bs-table/blob/master/CONTRIBUTING.md#bug-reports)
 
 And as stated there, please provide jsFiddle when creating issues!
 
@@ -88,7 +88,7 @@ Thanks to everyone who have given feedback and submitted pull requests. A list o
 
 ## Release History
 
-Look at the [Change Log](https://github.com/xuanhoa88/jbs-table/blob/master/CHANGELOG.md)
+Look at the [Change Log](https://github.com/xuanhoa88/bs-table/blob/master/CHANGELOG.md)
 
 ## Local build
 
