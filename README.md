@@ -1,4 +1,4 @@
-# [Bootstrap Table](http://bootstrap-table.wenzhixin.net.cn)
+# [Bootstrap Table]
 
 [![Build Status](https://travis-ci.org/wenzhixin/bootstrap-table.svg)](https://travis-ci.org/wenzhixin/bootstrap-table) 
 [![GitHub version](https://badge.fury.io/gh/wenzhixin%2Fbootstrap-table.svg)](http://badge.fury.io/gh/wenzhixin%2Fbootstrap-table)
@@ -90,7 +90,7 @@ Thanks to everyone who have given feedback and submitted pull requests. A list o
 
 ## Release History
 
-Look at the [Change Log](https://github.com/xuanhoa88/jbs-table/blob/master/CHANGELOG.md)
+Look at the [Change Log](https://github.com/xuanhoa88/jbs-table/CHANGELOG.md)
 
 ## Local build
 
