@@ -64,12 +64,12 @@ You can source jbs-table directly from a CDN like [CDNJS](http://www.cdnjs.com/l
 
 ## Contributing
 
-For feature requests, bug reports or submitting pull requests, please ensure you first read [CONTRIBUTING.md](https://github.com/xuanhoa88/jbs-table/CONTRIBUTING.md).
+For feature requests, bug reports or submitting pull requests, please ensure you first read [CONTRIBUTING.md](https://github.com/xuanhoa88/jbs-table/blob/master/CONTRIBUTING.md).
 
 
 ## Reporting Issues
 
-As stated above, please read [CONTRIBUTING.md](https://github.com/xuanhoa88/jbs-table/CONTRIBUTING.md), especially [Bug Reports](https://github.com/xuanhoa88/jbs-table/CONTRIBUTING.md#bug-reports)
+As stated above, please read [CONTRIBUTING.md](https://github.com/xuanhoa88/jbs-table/blob/master/CONTRIBUTING.md), especially [Bug Reports](https://github.com/xuanhoa88/jbs-table/blob/master/CONTRIBUTING.md#bug-reports)
 
 And as stated there, please provide jsFiddle when creating issues!
 
@@ -88,7 +88,7 @@ Thanks to everyone who have given feedback and submitted pull requests. A list o
 
 ## Release History
 
-Look at the [Change Log](https://github.com/xuanhoa88/jbs-table/CHANGELOG.md)
+Look at the [Change Log](https://github.com/xuanhoa88/jbs-table/blob/master/CHANGELOG.md)
 
 ## Local build
 
