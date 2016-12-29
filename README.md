@@ -45,33 +45,33 @@ To get started, check out:
 
 ### Manual download
 
-Use [Releases page](https://github.com/wenzhixin/bootstrap-table/releases) or [the source](https://github.com/wenzhixin/bootstrap-table/archive/master.zip).
+Use [Releases page](https://github.com/xuanhoa88/bs-table/releases) or [the source](https://github.com/xuanhoa88/bs-table/archive/master.zip).
 
 ### Bower
 
 ```
-bower install bootstrap-table
+bower install jbs-table
 ```
 
 ### Npm
 
 ```
-npm install bootstrap-table
+npm install jbs-table
 ```
 
 ### CDN
 
-You can source bootstrap-table directly from a CDN like [CDNJS](http://www.cdnjs.com/libraries/bootstrap-table) or [bootcss](http://open.bootcss.com/bootstrap-table/) or [jsdelivr](http://www.jsdelivr.com/#!bootstrap.table).
+You can source jbs-table directly from a CDN like [CDNJS](http://www.cdnjs.com/libraries/jbs-table) or [bootcss](http://open.bootcss.com/jbs-table/) or [jsdelivr](http://www.jsdelivr.com/#!bootstrap.table).
 
 
 ## Contributing
 
-For feature requests, bug reports or submitting pull requests, please ensure you first read [CONTRIBUTING.md](https://github.com/wenzhixin/bootstrap-table/blob/master/CONTRIBUTING.md).
+For feature requests, bug reports or submitting pull requests, please ensure you first read [CONTRIBUTING.md](https://github.com/xuanhoa88/jbs-table/blob/master/CONTRIBUTING.md).
 
 
 ## Reporting Issues
 
-As stated above, please read [CONTRIBUTING.md](https://github.com/wenzhixin/bootstrap-table/blob/master/CONTRIBUTING.md), especially [Bug Reports](https://github.com/wenzhixin/bootstrap-table/blob/master/CONTRIBUTING.md#bug-reports)
+As stated above, please read [CONTRIBUTING.md](https://github.com/xuanhoa88/jbs-table/blob/master/CONTRIBUTING.md), especially [Bug Reports](https://github.com/xuanhoa88/jbs-table/blob/master/CONTRIBUTING.md#bug-reports)
 
 And as stated there, please provide jsFiddle when creating issues!
 
@@ -90,11 +90,11 @@ Thanks to everyone who have given feedback and submitted pull requests. A list o
 
 ## Release History
 
-Look at the [Change Log](https://github.com/wenzhixin/bootstrap-table/blob/master/CHANGELOG.md)
+Look at the [Change Log](https://github.com/xuanhoa88/jbs-table/blob/master/CHANGELOG.md)
 
 ## Local build
 
-To build bootstrap-table locally please run:
+To build jbs-table locally please run:
 
 ```
 grunt build
