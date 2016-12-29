@@ -1026,7 +1026,7 @@
         // Assign the correct sortable arrow
         this.getCaret();
 
-        if (this.options.sidePagination === 'server') {
+        if ($this.data('sortable') === 'server') {
             this.initServer(this.options.silentSort);
             return;
         }
