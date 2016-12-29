@@ -1,17 +1,19 @@
 {
-    "name": "wenzhixin/bootstrap-table",
+    "name": "llama-jquery/bs-table",
     "description": "An extended Bootstrap table with radio, checkbox, sort, pagination and other features.",
+    "version": "0.1.0",
     "keywords": ["bootstrap","table","tablesort","pagination"],
     "type": "component",
-    "homepage": "https://github.com/wenzhixin/bootstrap-table",
+    "homepage": "https://github.com/xuanhoa88/bs-table",
     "license": "MIT",
     "require": {
-        "twitter/bootstrap": ">=2.3.0"
+        "twitter/bootstrap": ">=2.3.0",
+        "jquery/jquery": ">=1.7"
     },
     "authors": [
         {
-            "name": "wenzhixin2010",
-            "email": "wenzhixin2010@gmail.com"
+            "name": "XuaNguyen",
+            "email": "xuan.0211@gmail.com"
         }
     ]
 }
