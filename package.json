@@ -1,5 +1,5 @@
 {
-  "name": "jbs-table",
+  "name": "jquery-bootstrap-table",
   "description": "An extended Bootstrap table with radio, checkbox, sort, pagination, and other added features.",
   "version": "0.1.0",
   "main": "./src/bootstrap-table.js",
