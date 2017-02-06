@@ -1,5 +1,5 @@
 {
-    "name": "llama-jquery/bs-table",
+    "name": "llama-jquery/bootstrap-table",
     "description": "An extended Bootstrap table with radio, checkbox, sort, pagination and other features.",
     "version": "0.1.0",
     "keywords": ["bootstrap","table","tablesort","pagination"],
