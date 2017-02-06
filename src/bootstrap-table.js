@@ -754,8 +754,7 @@
             }
 
             $.each(columns, function (j, column) {
-                var text = '',
-                    halign = '', // header align style
+                var halign = '', // header align style
                     align = '', // body align style
                     style = '',
                     class_ = sprintf(' class="%s"', column['class']),
@@ -813,24 +812,20 @@
                     "tabindex='0'",
                     '>');
 
-                html.push(sprintf('<div class="th-inner %s">', that.options.sortable && column.sortable ?
-                    'sortable both' : ''));
-
-                text = column.title;
-
+                html.push('<div class="th-inner">');
                 if (column.checkbox) {
                     if (!that.options.singleSelect && that.options.checkboxHeader) {
-                        text = '<input name="btSelectAll" type="checkbox" />';
+                    	html.push('<input name="btSelectAll" type="checkbox" />');
                     }
                     that.header.stateField = column.field;
-                }
-                if (column.radio) {
-                    text = '';
+                } else if (column.radio) {
                     that.header.stateField = column.field;
                     that.options.singleSelect = true;
+                } else {
+                	html.push(column.title);
+                	html.push(sprintf('<span class="%s"></span>', that.options.sortable && column.sortable ?
+                            'sortable both' : ''));
                 }
-
-                html.push(text);
                 html.push('</div>');
                 html.push('<div class="fht-cell"></div>');
                 html.push('</div>');
