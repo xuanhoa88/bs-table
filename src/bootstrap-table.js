@@ -1,9 +1,3 @@
-/**
- * @author zhixin wen <wenzhixin2010@gmail.com>
- * version: 1.11.1
- * https://github.com/wenzhixin/bootstrap-table/
- */
-
 (function ($) {
     'use strict';
 
@@ -838,7 +832,7 @@
         this.$header.find('th[data-field]').each(function (i) {
             $(this).data(visibleColumns[$(this).data('field')]);
         });
-        this.$container.off('click', '.th-inner').on('click', '.th-inner', function (event) {
+        this.$container.off('click', '.sortable').on('click', '.sortable', function (event) {
             var target = $(this);
 
             if (that.options.detailView) {
@@ -846,7 +840,7 @@
                     return false;
             }
 
-            if (that.options.sortable && target.parent().data().sortable) {
+            if (that.options.sortable && target.closest('.th-inner').parent().data().sortable) {
                 that.onSort(event);
             }
         });
@@ -1003,7 +997,7 @@
     };
 
     BootstrapTable.prototype.onSort = function (event) {
-        var $this = event.type === "keypress" ? $(event.currentTarget) : $(event.currentTarget).parent(),
+        var $this = event.type === "keypress" ? $(event.currentTarget).closest('.th-inner') : $(event.currentTarget).closest('.th-inner').parent(),
             $this_ = this.$header.find('th').eq($this.index());
 
         this.$header.add(this.$header_).find('span.order').remove();
