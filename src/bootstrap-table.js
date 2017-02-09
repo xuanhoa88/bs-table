@@ -1211,9 +1211,14 @@
         if (text === this.searchText) {
             return;
         }
-        this.searchText = text;
+        
+        if (text.length === 0) {
+        	delete this.searchText;
+        } else {
+        	this.searchText = text;
+        }
+        
         this.options.searchText = text;
-
         this.options.pageNumber = 1;
         this.initSearch();
         this.updatePagination();
@@ -1229,7 +1234,7 @@
                 return;
             }
 
-            var s = this.searchText && (this.options.escape ?
+            var s = !(this.searchText === undefined) && (this.options.escape ?
                 escapeHTML(this.searchText) : this.searchText).toLowerCase();
             var f = $.isEmptyObject(this.filterColumns) ? null : this.filterColumns;
 
@@ -2338,7 +2343,7 @@
     };
 
     BootstrapTable.prototype.getData = function (useCurrentPage) {
-        return (this.searchText || !$.isEmptyObject(this.filterColumns) || !$.isEmptyObject(this.filterColumnsPartial)) ?
+        return (!(this.searchText === undefined) || !$.isEmptyObject(this.filterColumns) || !$.isEmptyObject(this.filterColumnsPartial)) ?
             (useCurrentPage ? this.data.slice(this.pageFrom - 1, this.pageTo) : this.data) :
             (useCurrentPage ? this.options.data.slice(this.pageFrom - 1, this.pageTo) : this.options.data);
     };
