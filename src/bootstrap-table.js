@@ -2003,13 +2003,20 @@
         });
 
         if (this.options.ajax) {
-            calculateObjectValue(this, this.options.ajax, [options], null);
-        } else {
-            if (_xhr && _xhr.readyState !== 4) {
-                _xhr.abort();
-            }
-            _xhr = $.ajax(options);
+        	var deferred = $.Deferred();
+        	try {
+        		deferred.resolve(calculateObjectValue(this, this.options.ajax, [options], null));
+        	} catch (e) {
+        		deferred.reject(e);
+			}
+        	
+        	return deferred.promise();
         }
+        
+        if (_xhr && _xhr.readyState !== 4) {
+                _xhr.abort();
+        }
+        return _xhr = $.ajax(options);
     };
 
     BootstrapTable.prototype.initSearchText = function () {
